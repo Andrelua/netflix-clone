@@ -4,11 +4,22 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
+import { NavBarComponent } from './shared/nav-bar/nav-bar.component';
+import { FullBannerComponent } from './shared/full-banner/full-banner.component';
+import { ListTitleComponent } from './shared/list-title/list-title.component';
+import { FooterComponent } from './shared/footer/footer.component';
+import { TitleComponent } from './shared/title/title.component';
+
 @NgModule({
-  declarations: [
-    AppComponent
+  declarations: [ // Declarações de componentes
+    AppComponent,
+    NavBarComponent,
+    FullBannerComponent,
+    ListTitleComponent,
+    FooterComponent,
+    TitleComponent
   ],
-  imports: [
+  imports: [ // Importações de módulos
     BrowserModule,
     AppRoutingModule
   ],
