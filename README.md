@@ -12,9 +12,12 @@ Essa a melhor forma de aprender uma nova ferramenta, praticando, praticando e pr
 
 ### Essa é a parte frontal:
 
-![Front do projeto](img/front.png)
+![](/imgs/front.png)
 
 
 ### Essa é com o Nav-bar ativado:
 
-![Nav-bar](img/nav-bar.png)
+![](imgs/nav-bar.png)
+
+
+#### Notem que a tela escurece graças ao ´backdrop´. Ele é ativado dinâmicamente pelo angular, assim que clicamos no nav-bar.
