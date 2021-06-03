@@ -7,6 +7,14 @@ Esse projeto está sendo desenvolvido com o Angular.
 Essa a melhor forma de aprender uma nova ferramenta, praticando, praticando e praticando muito!
 
 
+#### Abaixo está alguns fotos do projeto.
 
 
-#### Espaço abaixo será reservado para fotos.
+### Essa é a parte frontal:
+
+![Front do projeto](img/front.png)
+
+
+### Essa é com o Nav-bar ativado:
+
+![Nav-bar](img/nav-bar.png)
