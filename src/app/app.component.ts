@@ -7,4 +7,15 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'netflix-clone';
+  menuOpened = false;
+
+  setMenuStatus(state: boolean) {
+
+    this.menuOpened = state;
+
+  }
+
+  closeMenu(){
+    this.menuOpened = false;
+  }
 }

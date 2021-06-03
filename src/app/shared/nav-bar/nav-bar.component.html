@@ -1,7 +1,7 @@
-<nav class="navbar navbar-dark bg-dark fixed-top">
+<nav class="navbar navbar-dark bg-dark fixed-top" [ngClass]="{'sidebar-open': opened}">
 
-    <button class="navbar-toggler d-lg-none" type="button">
-        <img src="assets/images/hamburger.gif" alt="Menu">
+    <button class="navbar-toggler" style="size: 10px; margin-left: 5px;" type="menu" (click)="toggle()">
+        <img src="assets/images/hamburger.gif" alt="menu">
     </button>
   
     <a class="navbar-brand flex-grow-1" href="#">
